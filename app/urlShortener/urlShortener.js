@@ -9,15 +9,8 @@ angular.module('myApp.urlShortener', ['ngRoute'])
   });
 }])
 
-.controller('UrlShortener', ['$scope', '$http', function($scope, $http) {
+.controller('UrlShortener', ['$scope', function($scope) {
 
   // TODO: implement submit function
-  $scope.submit = function () {
 
-  }
-
-  // TODO: implement reset function
-  $scope.reset = function () {
-
-  }
 }]);
